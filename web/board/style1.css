@@ -1,0 +1,171 @@
+
+
+*{margin: 0 auto; padding: 0;}
+body{
+  font-family:"malgun gothic";
+  background: linear-gradient(to bottom, #FFEDAE, #ED4269); 
+  height: 100vh;
+  text-align: center;
+  font-size: 13px;
+}
+
+
+a
+{ text-decoration: none; color: deeppink;} 
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; color: black;} 
+    
+input[type="text"], 
+input[type="password"] {
+  border:solid 1px #6e8efb ;
+  border-radius: 4px;
+  padding: .3em .7em;
+}
+
+h1
+{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-content: center;
+}
+
+input[type="text"], 
+input[type="password"] {
+  border:solid 1px #6e8efb ;
+  border-radius: 4px;
+  padding: .3em .7em;
+}
+
+h4
+{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-content: center;	
+}
+
+
+ul li 
+{
+  list-style: none;
+}
+
+#box{
+  position: static;
+  float: right;
+  width: 100%;
+}
+
+
+#information
+{
+  position: absolute ;
+  top: 225px;
+  left: 1010px;
+  padding: 10px;
+  width:250px;
+  height:200px;
+  border:solid 1px #6e8efb ;
+  border-radius: 10px;
+  background-color: #ffffff;
+  background-color: rgba(255,255,255,0.5);
+}
+
+#login_box
+{
+  position: absolute ;
+  top: 0px;
+  left: 1010px;
+  padding: 10px;
+  width:250px;
+  height:200px;
+  border:solid 1px #6e8efb ;
+  border-radius: 10px;
+  background-color: #ffffff;
+  background-color: rgba(255,255,255,0.5);
+}
+
+#c_board
+{
+  position: absolute ;
+  top: 450px;
+  left: 1010px;
+  padding: 10px;
+  width:250px;
+  height:180px;
+  border:solid 1px #6e8efb ;
+  border-radius: 10px;
+  background-color: #ffffff;
+  background-color: rgba(255,255,255,0.5);
+}
+
+
+#board_box
+{ 
+  position: fixed;
+  top: 120px;
+  left: 200px;
+	width:1000px;
+  height:650px;
+  border:solid 1px #6e8efb ;
+  border-radius: 10px;
+  background-color: #ffffff;
+  background-color: rgba(255,255,255,0.5);
+}
+
+button {
+	position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;  
+  width:80px;
+  height:30px;
+  border-radius: 10px;
+  background: #DD5E89;  
+}
+
+button:active,
+button:hover,
+button:focus {
+  background: var(--button-hover-bg-color);
+  outline: 0;
+}
+button:disabled {
+  opacity: 0.5;
+}
+
+
+}
+
+textarea{
+  position: relative;
+	padding: 10px;
+	width:500px; 
+	height:100px; 
+	resize: none;
+  border:solid 1px #6e8efb ;
+  border-radius: 4px;
+  padding: .3em .7em;
+}
+
+
+table 
+{
+
+}
+
+#page_num {
+  position: relative;
+  margin-top: 20px;
+  font-size: 12px;
+
+}
+
+.fo_re {
+
+  font-weight: bold;
+}
+
